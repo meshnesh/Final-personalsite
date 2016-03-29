@@ -12,7 +12,7 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#7FFF00"
       },
       "shape": {
         "type": "circle",
@@ -56,9 +56,10 @@ particlesJS('particles-js',
         "opacity": 0.4,
         "width": 1
       },
+//        increase the speed of the particles
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 2,
         "direction": "none",
         "random": false,
         "straight": false,
