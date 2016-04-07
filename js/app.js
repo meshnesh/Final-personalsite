@@ -59,7 +59,7 @@ particlesJS('particles-js',
 //        increase the speed of the particles
       "move": {
         "enable": true,
-        "speed": 2,
+        "speed": 3,
         "direction": "none",
         "random": false,
         "straight": false,
