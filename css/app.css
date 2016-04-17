@@ -38,3 +38,24 @@ span{
   to{opacity: .0;}
 }
 
+/*Section Skills*/
+
+section{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 10%;
+  color: #454545;
+  font-size: 4em;
+}
+#skills{
+  background: #ff0;
+}
+/*Section work*/
+#work{
+  background: #fff;
+}
+/*Section contact*/
+#contact{
+  background: #000;
+}
