@@ -125,35 +125,31 @@
                 
 <!--                About / contsct section-->
 <section id="contact">
-    <form id="contact-form" method="post" action="mailer.php">
-        <div class="field">
-            <label for="name">Name</label>
-            <input type="text" id="name" class="contact-field" name="name" placeholder="Enter Name" required>
-        </div>
+    <section id="hire">
+        <h1>Contact Me</h1>
 
-        <div class="field">
-            <label for="email">Email</label>
-            <input id="email" class="contact-field" name="email" type="email" placeholder="Enter Email" required>
-        </div>
+        <form>
+            <div class="field name-box">
+                <input type="text" id="name" placeholder="Who Are You?"/>
+                <label for="name">Name</label>
+                <span class="ss-icon">check</span>
+            </div>
 
-        <div class="field">
-            <label for="message">Message</label>
-            <textarea id="message" class="contact-field" name="message" placeholder="Enter Message" required></textarea>
-        </div>
+            <div class="field email-box">
+                <input type="text" id="email" placeholder="name@email.com"/>
+                <label for="email">Email</label>
+                <span class="ss-icon">check</span>
+            </div>
 
-        <p class="antispam"><input id="hidden-spam" type="text" /></p>
+            <div class="field msg-box">
+                <textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+                <label for="msg">Msg</label>
+                <span class="ss-icon">check</span>
+            </div>
 
-        <div class="field">
-            <label for="spam">*What is 2 + 2 (Anti-spam)</label>
-            <input type="number" pattern="[0-9]*" id="spam" class="contact-field" value="" placeholder="Enter answer..." required>
-            <div class="error-msg"></div>
-        </div>
-
-        <div>
-            <input class="btn" id="submit" name="submit" type="submit" value="Submit">
-        </div>
-
-        <div class="error-status"></div>
+            <input class="button" type="submit" value="Send" />
+        </form>
+    </section>
 </section>
 <!--                end of about and skeleton section-->
                 
@@ -195,6 +191,7 @@
                 <script src="js/vendor/what-input.min.js"></script>
                 <script src="js/foundation.min.js"></script>
                 <script src="js/app.js"></script>
+                <script src="js/app1.js"></script>
                 <script type="text/javascript">
        function autorun()
        {
