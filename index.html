@@ -128,7 +128,35 @@
                 
 <!--                About / contsct section-->
 <section id="contact">
-  Contact
+    <form id="contact-form" method="post" action="mailer.php">
+        <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="contact-field" name="name" placeholder="Enter Name" required>
+        </div>
+
+        <div class="field">
+            <label for="email">Email</label>
+            <input id="email" class="contact-field" name="email" type="email" placeholder="Enter Email" required>
+        </div>
+
+        <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" class="contact-field" name="message" placeholder="Enter Message" required></textarea>
+        </div>
+
+        <p class="antispam"><input id="hidden-spam" type="text" /></p>
+
+        <div class="field">
+            <label for="spam">*What is 2 + 2 (Anti-spam)</label>
+            <input type="number" pattern="[0-9]*" id="spam" class="contact-field" value="" placeholder="Enter answer..." required>
+            <div class="error-msg"></div>
+        </div>
+
+        <div>
+            <input class="btn" id="submit" name="submit" type="submit" value="Submit">
+        </div>
+
+        <div class="error-status"></div>
 </section>
 <!--                end of about and skeleton section-->
                 
